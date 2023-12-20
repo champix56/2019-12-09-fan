@@ -1,0 +1,25 @@
+<table id="panier">
+    <tr>
+        <th>Produit</th>
+        <th>Quant.</th>
+        <th>S-Total</th>
+    </tr>
+    <tr class="panier-data" ng-repeat="produit in ctrlPanier.panier">
+        <td>{{produit.titre}}</td>
+        <td></td>
+        <td>{{produit.prix}}</td>
+    </tr>
+    <tr>
+        <td rowspan="3"></td>
+        <td>H.T.</td>
+        <td>€</td>
+    </tr>
+    <tr>
+        <td>T.V.A</td>
+        <td>€</td>
+    </tr>
+    <tr>
+        <td>T.T.C.</td>
+        <td>€</td>
+    </tr>
+</table>

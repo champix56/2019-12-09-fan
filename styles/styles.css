@@ -1,0 +1,43 @@
+#produits .produit-img img{
+    width:150px;
+    max-height: 150px;
+    size:auto;
+}
+#produits .produit>*{
+    display:inline-block;
+}
+#produits .produit{
+    display:block;
+}
+#produits .produit .produit-action{
+    text-align: right;
+
+} 
+
+
+/* Section pour un produit Unique */
+#produit>img{
+    max-width:300px;
+    max-height: 300px;
+    size:auto;
+}
+#produit>div{
+    display: inline-block;
+}
+#produit>h2{
+    display:block;
+    text-decoration: underline;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 700;
+    padding-left: 20px;
+}
+#produit .produit-description{
+    max-width: 80%;
+    
+}
+
+/* Section panier */
+#panier th{
+    font-size: xx-small;
+}

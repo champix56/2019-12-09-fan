@@ -1,0 +1,22 @@
+{
+  "name": "2019-12-09-fan",
+  "contributors": [],
+  "version": "1.0.1",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "dependencies": {
+    "lite-server": "2.5.4",
+    "json-server": "0.15.1"
+  },
+  "scripts": {
+    "test":"npm run json | npm run lite",
+    "lite":"lite-server",
+    "json":"json-server -p 666 db/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://champix@bitbucket.org/champix/2019-12-09-fan.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

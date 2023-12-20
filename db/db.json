@@ -1,0 +1,39 @@
+{
+    "produit": [
+        {
+            "id": 1,
+            "titre": "Cidre BRETON",
+            "description": "TRES BON CIDRE breton, une reference dans le monde , même en normandie",
+            "prix": 2.54852,
+            "img": "doux.jpg","stock":0
+        },
+        {
+            "id": 2,
+            "titre": "Cidre NORMAND",
+            "description": "CIDRE NORMAND,Tres bon cidre de table apre et amere",
+            "prix": 7.25852,
+            "img": "brut.jpg"
+            
+        },
+        {
+            "id": 3,
+            "titre": "beurre paysan breton BLEU",
+            "description": "TRES BON beurre breton et salé, une reférence dans le monde des beurriers",
+            "img": "paysanbleu.jpg",
+            "prix": 5.25852,"stock":1
+        },
+        {
+            "id": 4,
+            "titre": "Beurre de baratte",
+            "description": "Beurre normand sans sel, issue d'un recette volé aux bretons qui trainais dans le mont saint michel",
+            "img": "baratte.jpg",
+            "prix":2.999,"stock":0
+        }
+    ],
+    "boutique": {
+        "rs": "L'échoppe du far ouest",
+        "adr1": "route de rennes",
+        "cp": "75014",
+        "ville": "paris"
+    }
+}

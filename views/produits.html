@@ -1,0 +1,16 @@
+<div id="produits">
+        <div class="produit" ng-repeat="produit in produits.listeProduits | limitTo : 4">
+            <div class="produit-img">
+                <img ng-src="img/produits/{{produit.img}}" alt="" />
+            </div>
+            <div class="produit-description">
+                <h2>{{produit.titre}}</h2>
+               {{produit.description}} <br/>
+               <a ng-href="#!/produit/{{produit.id}}">Voir plus</a>
+               <!-- <div>{{produit|json}}</div> -->
+               <div class="produit-action">Prix :<span class="produit-prix">{{produit.prix|currencyEuro:2}}</span>
+                    <button ng-if="produit.stock &gt;= 1 || undefined !==produit.stock" type="button" class="btn btn-primary" ng-click="onclickaddcart(produit)">Ajouter au panier</button>
+                </div>
+            </div>
+        </div><!-- Fin div.produit -->
+    </div><!-- Fin div#produits -->

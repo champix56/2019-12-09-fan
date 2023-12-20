@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Angular. js</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body ng-app="app" ng-init="HelloTOTO='DEMAT Breizh';">
+    <div class="navbar navbar-inverse">
+        <a class="navbar-brand" href="#!/sdfghjk">angularjs sdfghjk</a>
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#!/home">Home</a>
+            </li>
+            <li>
+                <a href="#!/produits">produits</a>
+            </li>
+            <li>
+                <a href="#!/produit/1">produit 1</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="view" ng-view>
+        <div id="main">
+            <h1> {{HelloTOTO}}</h1>
+            sur notre premiere boutique angular.js
+
+        </div>
+
+
+    </div>
+    <mon-panier jhdisj></mon-panier>
+    <!-- <div class="mon-panier ijdicej"></div>
+    <div mon-panier="Une valeur" jisdjizsdj></div> -->
+    <script src="vendor/manageObject.js"></script>
+
+    <script src="vendor/angular.js"></script>
+    <script src="vendor/angular-route.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/srvcProduits/srvcProduits.js"></script>
+    <script src="app/filterCurrencyEuro/filterCurrencyEuro.js"></script>
+    <script src="app/ctrlProduit/ctrlProduit.js"></script>
+    <script src="app/ctrlProduits/ctrlProduits.js"></script>
+    <script src="app/directiveMonPanier/directiveMonPanier.js"></script>
+
+</body>
+
+</html>
